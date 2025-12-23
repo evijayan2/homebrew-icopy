@@ -2,6 +2,7 @@ class Icopy < Formula
   desc "Tool to copy image and video files organized by date"
   homepage "https://github.com/evijayan2/icopy"
   version "1.0.0"
+  revision 1
 
   if OS.mac?
     if Hardware::CPU.intel?
